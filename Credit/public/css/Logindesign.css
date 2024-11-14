@@ -1,0 +1,133 @@
+.bg{
+    width: 43%;
+    height: 700px;
+    opacity: 90%;
+    top: 15%;
+    left: 5%;
+    position: fixed;
+}
+.LoginBorder {
+    display: flex; /* Ensure flexbox layout */
+    flex-direction: column; /* Align children in a column */
+    justify-content: center; /* Center content vertically */
+    width: 500px;
+    height: 500px;
+    background-color: rgba(247, 247, 247, 0.8);
+    position: absolute;
+    left: calc(55% - 5px); /* Center the form horizontally */
+    top: calc(50% - 250px); /* Center the form vertically */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8; /* Initial opacity */
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out; /* Smooth transition for hover/focus */
+}
+
+/* Scale the LoginBorder when hovered or focused */
+.LoginBorder:hover,
+.LoginBorder:focus-within {
+    transform: scale(1.05); /* Increase size by 3% */
+    opacity: 1; /* Make it fully opaque */
+}
+
+/* Optional: Add a transition effect for any input fields inside the LoginBorder */
+.LoginBorder input:focus,
+.LoginBorder textarea:focus {
+    transform: scale(1.03); /* Increase size by 3% */
+    transition: transform 0.4s ease-in-out; /* Smooth transition for inputs */
+}
+.qclogo{
+    position: absolute;
+    width: 75px;
+    height: 60px;
+    margin-top: -170px;
+    margin-left: 170px;
+}
+.officelogo{
+    position: absolute;
+    width: 75px;
+    height: 70px;
+    margin-top: -175px;
+    margin-left: 260px;
+}
+.systemtitle{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    margin-top: 120px;
+
+}
+.date {
+    display: none; /* This will hide the date and time */
+}
+.form {
+    display: flex;
+    opacity: 0.2;
+    position: absolute;
+    flex-direction: column;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    background-color: rgb(168, 47, 47);
+    margin-top: 300px;
+    margin-left: 130px;
+    float: left;
+    border-radius: 10px; /* add a border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); /* add a shadow */
+}
+
+
+.inputuser{
+    margin-left: 100px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inputpassword{
+    margin-left: 100px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signin-btn {
+    margin: 30px auto; /* Centers the button horizontally */
+    height: 45px;
+    width: 300px;
+    background-color: rgb(24, 110, 16);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
+
+.signin-btn:hover{
+    background-color: rgb(38, 168, 26);
+    cursor: pointer;
+}
+.user{
+    width: 290px;
+    margin-top: -15px;
+    height: 40px;
+}
+.pass{
+    width: 290px;
+    height: 40px;
+    margin-top: -15px;
+}
+.username{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.passwordtxt{
+    margin-top: 5px;
+}
+
+.alert-danger {
+    color: #ff4d4d;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #ffe6e6;
+    border-radius: 5px;
+    width: 80%; 
+    max-width: 400px;
+}

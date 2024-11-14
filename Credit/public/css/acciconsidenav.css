@@ -1,0 +1,131 @@
+.accdrop{
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 710px;
+    width: 220px;
+    height:0;
+    z-index: 5;
+    background-color: #111;
+    padding-top: 0;
+    display: none;
+    opacity: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: height 0.3s ease; /* Corrected */
+}
+.accdrop.show {
+    display: block; /* Show the element */
+    opacity: 1; /* Full opacity */
+    height: 140px;
+}
+.accmanage{
+    position: fixed;
+    width: 220px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #111;
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.accmanage:hover{
+    background-color: #424242;
+    padding-left: 20px;
+}
+.accset{
+    position: fixed;
+    width: 220px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #111;
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 25px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.accset:hover{
+    background-color: #424242;
+    padding-left: 20px;
+}
+.logout{
+    margin-top: 47px;
+    position: fixed;
+    width: 220px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #111;
+    padding-left: 10px;
+    text-align: left;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.logout:hover{
+    background-color: #7a0808;
+    padding-left: 20px;
+}
+
+.logout-verification{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    left: calc(50% - 250px);
+    margin-top: 250px;
+    z-index: 9999;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+  }
+  .logoutverificationtxt{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    z-index: 1000;
+  }
+  #cancelLogout{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border: solid black 1px;
+    outline: none;
+    background-color: #ffffff;
+  }
+  #cancelLogout:hover{
+    background-color: #e4e4e4;
+  }
+  #confirmLogout{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 270px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #790e0e;
+  }
+  #confirmLogout{
+    background-color: #b10a0a;
+  }

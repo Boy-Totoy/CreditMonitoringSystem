@@ -1,0 +1,1640 @@
+/* body */
+body{
+background-color:rgb(255, 255, 255);
+}
+/* body */
+
+/* upper box */
+.banner{
+    width: 805px;
+    height: 150px;
+    position: absolute;
+    margin-top: 1px;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.2s ease-in-out;
+}
+.banner:hover{
+    transform: scale(1.01);
+}
+.emname{
+    position: absolute;
+    width: 480px;
+    height: 50px;
+    background-color: rgb(0, 30, 58);
+}
+.empname{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.empdivis{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.empnamecont{
+    width: 480px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin: 0;
+    background-color: rgb(154, 206, 248);
+}
+.empdivcont{
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    background-color: rgb(154, 206, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.emdiv{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-left: 500px;
+    background-color: rgb(0, 30, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.leavemenu{
+    width: 1089px;       
+    height: 150px;
+    background-color: rgb(154, 206, 248);
+    border: solid 2px black;
+    position: absolute;
+    margin-left: 810px;
+}
+.leavebtn{
+    position: absolute;
+    width: 269px;
+    height: 80px;
+    background-color:  rgb(0, 30, 58);
+    border: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    padding-top: 25px;
+    justify-content:center;
+    display: flex;
+    margin-top: 67px;
+    margin-left: 1627px;
+}  
+.leavebtn:hover{
+    background-color:  rgb(0, 91, 175);
+    cursor: pointer;
+}
+.logoutbtn{
+    margin-left: 947px;
+    position: absolute;
+    margin-top: 4px;
+    width: 137px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    background-color: rgb(61, 0, 0);
+    font-size: 20px;
+}
+.logoutbtn:hover{
+    background-color: rgb(212, 1, 1);
+    cursor: pointer;
+}
+.accdetails{
+    margin-left: 815px;
+    position: absolute;
+    margin-top: 4px;
+    width: 125px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    background-color:  rgb(0, 30, 58);
+    font-size: 20px;
+}
+.accdetails:hover{
+    background-color:  rgb(0, 91, 175);
+    cursor: pointer;
+}
+/* upper box */
+/* particular table */
+.particular{
+    width: 1300px;
+    height: 765px;
+    background-color:azure;
+    margin-top: 155px;
+    position: absolute;
+    border: solid 2px black;
+}
+.particulartxtdiv{
+    width: 1141px;
+    height: 50px;
+    background-color: rgb(175, 207, 233);
+    border: solid 1px black;
+    margin-left: 155px;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+.monthtxtdiv{
+    width: 150px;
+    height: 160px;
+    background-color: white;
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 1px;
+    position: absolute;
+}
+.monthtxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 58px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+}
+.Tardinessdiv{
+    width: 170px;
+    height: 60px;
+    background-color: rgb(163, 163, 163);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 155px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.tardtxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 30px;  
+}
+.hhmm{
+    width: 83px;
+    height: 43px;
+    background-color: rgb(163, 163, 163);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 155px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.hourmintxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 10px;  
+}
+.equiv{
+    width: 83px;
+    height: 43px;
+    background-color: rgb(163, 163, 163);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 242px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.equivtxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 10px;  
+}
+.wpay{
+    width: 82px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 330px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.wpaytxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 12px;  
+}
+.wopay{
+    width: 82px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 417px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.wopaytxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+  
+}
+.wpaysl{
+    width: 78px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 503px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.wpaysltxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 10px;  
+}
+.wopaysl{
+    width: 78px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 585px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.wopaysltxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    
+}
+.Spleave{
+    width: 145px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 667px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.Spleavetxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 60px;  
+}
+.fleave{
+    width: 145px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 816px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.fleavetxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 60px;  
+}
+.sickdiv{
+    width: 160px;
+    height: 60px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 503px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.sicktxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 30px;  
+}
+.sicktxt2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 60px;  
+    margin-top: 30px;
+}
+.SP{
+    width: 90px;
+    height: 42px;
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 965px;
+    position: absolute;
+    background-color: rgb(207, 203, 140);
+}
+.SPtxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 13px;  
+}
+.vacationdiv{
+    width: 170px;
+    height: 60px;
+    background-color: rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 329px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.vacationtxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 10px;  
+}
+.vacationtxt2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 65px;  
+    margin-top: 30px;
+}
+.spleavediv{
+    width: 145px;
+    height: 60px;
+    background-color: rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 667px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.spleavetxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    padding-top: 8px;
+}
+.forceddiv{
+    width: 145px;
+    height: 60px;
+    background-color: rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 816px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.forcedtxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    padding-top: 8px;
+}
+.solodiv{
+    width: 90px;
+    height: 60px;
+    background-color: rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 965px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.solotxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    padding-left: 5px;
+    padding-left: 17px;
+}
+.solotxt2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 6px;
+}
+.datediv{
+    width: 113px;
+    height: 106px;
+    background-color: rgb(218, 169, 157);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 1059px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.datetxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    padding-left: 16px;
+    padding-top: 20px;
+   
+}
+.datetxt2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.remdiv{
+    width: 120px;
+    height: 106px;
+    background-color: rgb(218, 169, 157);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 1176px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.remtxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    padding-left: 14px;
+    padding-top: 30px;
+   
+}
+/* particular table */
+.balance{
+    margin-top: 155px;
+    width: 594px;
+    height: 765px;
+    background-color:azure;
+    margin-left: 1305px;
+    position: absolute;
+    border: solid 2px black;
+}
+.balancetxtdiv{
+    width: 589px;
+    height: 50px;
+    background-color: rgb(175, 207, 233);
+    border: solid 1px black;
+    margin-left: 1px;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+.vacationleavediv{
+    width: 167px;
+    height: 60px;
+    background-color: rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 1px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.vacationleavetxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 18px;  
+}
+.vacationleavetxt2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 65px;  
+    margin-top: 30px;
+}
+.sickleavediv{
+    width: 167px;
+    height: 60px;
+    background-color: rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 173px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.sickleavetxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 32px;  
+}
+.sickleavetxt2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 65px;  
+    margin-top: 30px;
+}
+.specialleavediv{
+    width: 120px;
+    height: 107px;
+    background-color: rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 345px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.specialleavetxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 5px;  
+    margin-top: 40px;
+}
+.specialleavetxt2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 45px;  
+    margin-top: 57px;
+}
+.forceleavediv{
+    width: 120px;
+    height: 107px;
+    background-color: rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 1px;
+    margin-left: 470px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.forceleavetxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 5px; 
+    margin-top: 40px; 
+}
+.forceleavetxt2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 45px;  
+    margin-top: 57px;
+}
+.earn1{
+    width: 82px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 1px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.earn1txt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 8px;  
+    margin-top: 14px;
+}
+.bal1{
+    width: 82px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 87px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.bal1txt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 4px;  
+    margin-top: 14px;
+}
+.earn2{
+    width: 82px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 173px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.earn2txt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 8px;  
+    margin-top: 14px;
+}
+.bal2{
+    width: 82px;
+    height: 43px;
+    background-color:rgb(207, 203, 140);
+    border: solid 1px black;
+    margin-top: 65px;
+    margin-left: 259px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.bal2txt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-left: 4px;  
+    margin-top: 14px;
+}
+.month1{
+    margin-top: 111px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.month2{
+    margin-top: 161px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.feb{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.month3{
+    margin-top: 211px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.mar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 35px;
+}
+.month4{
+    margin-top: 261px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.apr{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 42px;
+}
+.month5{
+    margin-top: 311px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.may{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.month6{
+    margin-top: 361px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.jun{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 45px;
+}
+.month7{
+    margin-top: 411px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.jul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 47px;
+}
+.month8{
+    margin-top: 461px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.aug{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.month9{
+    margin-top: 511px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.sep{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 13px;
+}
+.month10{
+    margin-top: 561px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.oct{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left:25px;
+}
+.month11{
+    margin-top: 611px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}
+.nov{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.month12{
+    margin-top: 661px;
+    margin-left: 1px;
+    height: 47px;
+    width: 150px;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    float: left;
+    border: solid 1px black;
+}.dec{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 18px;
+}
+
+.jan{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 20px;
+    margin-left: 27px;
+}
+.logout{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 300px;
+    width: 450px;
+    height: 250px;
+    border: solid 1px black;
+    background-color:aliceblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.logouttxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 60px;   
+}
+.Yes{
+    margin-left: 240px;
+    margin-top: 50px;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(179, 3, 3);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    position: absolute;
+    font-size: 20px;
+}
+.Yes:hover{
+    cursor: pointer;
+    background-color: rgb(212, 0, 0);
+}
+.No{
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(0, 139, 35);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    position: absolute;
+    font-size: 20px;
+}
+.No:hover{
+    cursor: pointer;
+    background-color: rgb(0, 175, 44);
+}
+.leaveform{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 50px;
+    width: 500px;
+    height: 850px;
+    background-color:blanchedalmond;
+    border: solid 3px black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+.applicationtxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.Fileleavebtn{
+    height: 60px;
+    width: 480px;    
+    background-color: rgb(0, 95, 36);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    border: none;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.Fileleavebtn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 177, 68);
+}
+.Cancelbtn{
+    height: 60px;
+    width: 480px;    
+    background-color: rgb(88, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 610px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.Cancelbtn:hover{
+    cursor: pointer;
+    background-color: rgb(163, 0, 0);
+}
+.leaveform {
+    display: none;
+  }
+  .blurred {
+    filter: blur(5px);
+  }
+
+.edept{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 40px;
+    position: absolute;
+}
+.eposition{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 150px;
+    position: absolute;
+}
+.esalary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 300px;
+    position: absolute;
+}
+.ename{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 450px;
+    position: absolute;
+}
+.empoffice{
+    width: 410px;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 40px;
+    position: absolute;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.empoffice:focus{
+    outline: none;
+}
+.empposition{
+    width: 410px;
+    height: 40px;
+    margin-top: 200px;
+    margin-left: 40px;
+    position: absolute;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.empposition:focus{
+    outline: none;
+}
+.empnameleave{
+    width: 410px;
+    height: 40px;
+    margin-top: 500px;
+    margin-left: 40px;
+    position: absolute;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.empnameleave:focus{
+    outline: none;
+}
+.empsalary{
+    width: 410px;
+    height: 40px;
+    margin-top: 350px;
+    margin-left: 40px;
+    position: absolute;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.empsalary:focus{
+    outline: none;
+}
+.instruction{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 70px;
+    margin-top: 570px;
+    position: absolute;
+}
+.read{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 572px;
+}
+.accountform{
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 200px;
+    width: 1480px;
+    height: 550px;
+    background-color: rgb(175, 207, 233);
+    border: solid 2px black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+}
+.accttxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 230px;
+    color: black;
+}
+.lname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    color: black;
+}
+.fname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 530px;
+    color: black;
+}
+.mname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1015px;
+    color: black;
+}
+.division{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 530px;
+    color: black;
+}
+.post{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1015px;
+    color: black;
+}
+.slary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 50px;
+    color: black;
+}
+.offic{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: black;
+}
+.oficeinput{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.5px black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.divsioninput{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: 530px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.5px black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.positioninput{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: 1015px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.5px black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.lnameinput{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    margin-top: 320px;
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.5px black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.fnameinput{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    margin-top: 320px;
+    margin-left: 530px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.5px black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.mnameinput{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    margin-top: 320px;
+    margin-left: 1015px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.5px black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.salaryinput{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    margin-top: 470px;
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.5px black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.accclosebtn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -22px;
+    margin-left: 1450px;
+    background-color: rgb(114, 0, 0);
+    border-radius: 50%;
+    padding-left: 3px;
+    padding-top:2px;
+    z-index: 2;
+}
+.accclosebtn:hover{
+    background-color: rgb(223, 0, 0);
+    cursor: pointer;
+}
+.updateacc{
+    position: absolute;
+    width: 300px;
+    height: 85px;
+    margin-left: 1132px;
+    margin-top: 425px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color:green;
+    border: none;
+    cursor: pointer;
+}
+.save{
+    position: absolute;
+    width: 300px;
+    height: 85px;
+    margin-left: 1132px;
+    margin-top: 425px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color:green;
+    border: none;
+    cursor: pointer;
+}
+.decor{
+    width: 1903px;
+    height: 11px;
+    margin-top: 925px;
+    position: absolute;
+    background-color:rgb(0, 36, 66); ;
+}
+.userdet{
+    position: absolute;
+    background-color: darkgreen;
+    color: white;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 70px;
+    margin-top: 50px;
+    border: none;
+    width: 320px;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.userdet:hover{
+    background-color: green;
+}
+.usersec{
+    position: absolute;
+    background-color: darkgreen;
+    color: white;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 70px;
+    margin-top: 130px;
+    border: none;
+    width: 320px;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.usersec:hover{
+    background-color: green;
+}
+.particulartable{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 155px;
+    width:1143px;
+    height: 598.5px;
+    border: solid 1px black; 
+}
+.balancetable{
+    position: absolute;
+    margin-top: 112px;
+    margin-left: 1px;
+    width:  590px;
+    height: 597.5px;
+    border: solid 1px black;
+}
+.security{
+    position: absolute;
+    width:  730px;
+    height: 80px;
+    margin-left: 750px;
+    background-color: rgb(156, 186, 207);
+}
+.security:hover{
+    cursor: pointer;
+}
+.secutxt{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.secutxt:hover{
+    cursor: pointer;
+}
+
+.security2{
+    position: absolute;
+    width:  730px;
+    height: 80px;
+    background-color: rgb(156, 186, 207);
+}
+
+.secutxt2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 230px;
+    color: black;
+}
+
+.user{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 688px;
+    height: 60px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align:left;
+    padding-left: 15px;
+    border-radius: 3px;
+
+}
+.pass{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 688px;
+    height: 60px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align:left;
+    padding-left: 15px;
+    border-radius: 3px;
+}
+.accountsecurity{
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 200px;
+    width: 1480px;
+    height: 550px;
+    background-color: rgb(175, 207, 233);
+    border: solid 2px black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+}
+.accttxt2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left:970px;
+    color: black;
+    margin-top: 20px;
+}
+.security2{
+    cursor: pointer;
+}
+.secutxt2{
+    cursor: pointer;
+}

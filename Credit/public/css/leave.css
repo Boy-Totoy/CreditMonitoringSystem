@@ -1,0 +1,222 @@
+/* The sidebar menu */
+
+  /*StartMain*/
+  .employess-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    position: fixed;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+.divisiontxt-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    position: fixed;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top:20px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.active {
+    color: green; /* Set the active color to green */
+}
+.employess-title::after, .divisiontxt-title::after {
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 2px; /* Thickness of the underline */
+    background-color: green; /* Color of the underline */
+    bottom: -5px; /* Positioning the underline below the text */
+    left: 0;
+    transition: transform 0.3s ease; /* Transition for smooth movement */
+    transform: scaleX(0); /* Start with no underline */
+}
+
+.underline::after {
+    transform: scaleX(1); /* Scale the underline to full width when active */
+}
+.Appliedleave{
+    width: 91%;
+    height: 755px;
+    position:fixed;
+    background-color: white;
+    z-index: 1;
+    transition: 0.2s;
+    margin-top: 80px;
+    margin-left: 24px;
+    border: solid rgb(146, 146, 146) 1px;
+    border-radius: 10px;
+}
+.morebtn{
+    position: fixed;
+    background: #ffffff;
+    height: 40px;
+    width: 40px;
+    margin-left: 1720px;
+    margin-top: 17px;
+    border-radius: 80%;
+    border: none;
+    transition: 0.2s;
+    
+  }
+  .morebtn:hover{
+   border: 0.5px solid rgb(179, 179, 179);
+  }
+
+  .date-time{
+    position: fixed;
+    margin-top: 25px;
+    margin-left: 1210px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/*main content applied leave*/
+.empnamecont{
+    position: fixed;
+    width: 400px;
+    height: 100px;
+    background-color: #093586;
+    font: bolder;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    margin-top: 125px;
+    margin-left: 20px;
+}
+.appliedempnametxt{
+    position: fixed;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.filtertxt{
+    position: fixed;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.morechoices-dateofleave{
+    position: fixed;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 700px;
+    margin-top: 27px;
+}
+.date{
+    margin-left: 700px;
+    margin-top: 50px;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    border: none;
+}
+
+
+.hrline{
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 20px;
+    width: 88.6%;
+    background-color: rgb(0, 0, 0);
+}
+
+.dateleavecont{
+  position: fixed;
+  width: 280px;
+  height: 100px;
+  background-color: #093586;
+  font: bolder;
+  color: white;
+  text-align: center;
+  margin-top: 125px;
+  margin-left: 421px;
+}
+.dateleavetxt{
+  position: fixed;
+  margin-top: 25px;
+  margin-left: 18px;
+  font-size: 30px;
+}
+.leavetypecont{
+  position: fixed;
+  width: 240px;
+  height: 100px;
+  background-color: #093586;
+  font: bolder;
+  color: white;
+  text-align: center;
+  margin-top: 125px;
+  margin-left: 702px;
+}
+.leavetypetxt{
+  position: fixed;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.withoutscont{
+  position: fixed;
+  width: 240px;
+  height: 100px;
+  background-color: #093586;
+  font: bolder;
+  color: white;
+  text-align: center;
+  margin-top: 125px;
+  margin-left: 943px;
+}
+.withoutstxt{
+  position: fixed;
+  margin-top: 5px;
+  margin-left: 23px;
+  font-size: 30px;
+}
+.dateappliedcont{
+  position: fixed;
+  width: 240px;
+  height: 100px;
+  background-color: #093586;
+  font: bolder;
+  color: white;
+  text-align: center;
+  margin-top: 125px;
+  margin-left: 1184px;
+}
+.dateappliedtxt{
+  position: fixed;
+  margin-top: 28px;
+  margin-left: 15px;
+  font-size: 35px;
+  font-size: 30px;
+}
+.remarkscont{
+  position: fixed;
+  width: 280px;
+  height: 100px;
+  background-color: #8d1d1d;
+  font: bolder;
+  color: white;
+  text-align: center;
+  margin-top: 125px;
+  margin-left: 1425px;
+  border-top-right-radius: 10px;
+}
+.remarkstxt{
+  position: fixed;
+  margin-top: 28px;
+  margin-left: 65px;
+  font-size: 30px;
+}
+

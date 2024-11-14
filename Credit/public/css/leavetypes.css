@@ -1,0 +1,121 @@
+/*main content applied leave*/
+.filter{
+    position: fixed;
+    margin-top: 20px;
+    width: 89%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    height: 110px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+.searchbar{
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    position: fixed;
+    width: 35%;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    color: #141414;
+    border-radius: 10px;
+}
+.searchbar:focus{
+    border: none;
+    outline: none;
+}
+
+.filtertxt{
+    position: fixed;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+}
+.morechoices-dateofleave{
+    position: fixed;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 695px;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+}
+.date-picker-input{
+    margin-left: 700px;
+    margin-top: 30px;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    width: 175px;
+    
+}
+
+.leavetypes{
+    margin-left: 885px;
+    margin-top: 30px;
+    width: 180px;
+    height: 51px;
+    background-color: rgb(240, 240, 240);
+    border: solid rgb(240, 240, 240) 1px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.leavetypes:focus{
+    border: none;
+    outline: none;
+}
+.morechoices-typeofleave{
+    position: fixed;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 880px;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+}
+.morechoices-dateapplied{
+    position: fixed;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 1070px;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+}
+.morechoices-payoption{
+    position: fixed;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 1280px;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+}
+.pay-option{
+    margin-left: 221px;
+    margin-top: 30px;
+    width: 180px;
+    height: 51px;
+    background-color: rgb(240, 240, 240);
+    border: solid rgb(240, 240, 240) 1px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    position: fixed;
+    
+}
+
+.pay-option:focus{
+    border: none;
+    outline: none;
+}

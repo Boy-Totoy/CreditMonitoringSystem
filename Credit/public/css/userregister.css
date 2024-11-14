@@ -1,0 +1,490 @@
+.top{
+    width: 1200px;
+    height: 75px;
+    border: solid 2px black;
+    margin: 0;
+    display: flex;
+    position: absolute;
+}
+
+.accid{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.accidnum{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+.userid{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 550px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.empnumber{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+.empnumber:placeholder-shown{
+    color: white;
+}
+
+.bottom{
+    border: solid 2px black;
+    width: 1200px;
+    height: 848px;
+    position: absolute;
+    margin-top: 85px;
+}
+
+.newlname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.name{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 135px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.newfname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 550px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.fname{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 135px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0); 
+}
+
+.usertxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.bglogo{
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    opacity: 0.1;
+}
+
+.newmname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.mname{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 290px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+.newsufname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: 550px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.suffix{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 290px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.newsufnamecomment{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 312px;
+    margin-left: 640px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.linesplit{
+    margin-top: 400px;
+    margin-left: 20px;
+    width: 96%;
+}
+
+.secdetails{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.newusernametxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.newusernameinput{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 135px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.newemailtxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 550px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.newemailinput{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 135px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+   
+}
+
+.newpasswordname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+
+}
+
+.newpasswordinput{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 290px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.showPassword{
+    margin-left: 220px;
+    margin-top: 360px;
+    position: absolute;
+    
+}
+
+.showPasswordtxt{
+    margin-left: 240px;
+    margin-top: 359px;
+    position: absolute;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newconfirmname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: 550px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.newconfirminput{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 290px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.showconfirmPassword{
+    margin-left: 840px;
+    margin-top: 360px;
+    position: absolute;
+
+}
+
+.showconfirmtxt{
+    margin-left: 860px;
+    margin-top: 359px;
+    position: absolute;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.side{
+    width: 690px;
+    height: 933px;
+    position: absolute;
+    margin-left: 1211px;
+    border: 2px solid black;
+}
+
+.officetxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.officedisptxt{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.officeinput{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 380px;
+        height: 50px;
+        border: solid 1px black;
+        position: absolute;
+        margin-left: 200px;
+        margin-top: 140px;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-left: 15px;
+        background-color: rgba(0, 0, 0, 0);
+}
+
+.departmenttxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 260px;
+    position: absolute;
+}
+
+.dept{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height:55px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 250px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.positiontxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 365px;
+    position: absolute;
+}
+
+.office{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 380px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 355px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.salarytxt{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 470px;
+    position: absolute;
+}
+
+.salaryinput{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 380px;
+    height: 50px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 460px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.salaryinwords{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 525px;
+    text-transform: capitalize;
+    position: absolute;
+    max-width: 400px;
+}
+
+.linesplit2{
+    width: 94%;
+    margin-top: 590px;
+}
+
+.lowdesign{
+    margin-left: 10px;
+    width: 97%;
+    height: 180px;
+    position: absolute;
+}
+
+.submitbtn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(255, 123, 0);
+    border: none;
+    height: 80px;
+    width: 320px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 220px;
+    margin-left: 20px
+}
+
+.submitbtn:hover{
+    background-color: rgb(255, 72, 0);
+    cursor: pointer;
+}
+
+.cancelbtn{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: rgb(105, 105, 105);
+        border: none;
+        height: 80px;
+        width: 320px;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: 220px;
+        margin-left: 10px
+}
+
+.cancelbtn:hover{
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
